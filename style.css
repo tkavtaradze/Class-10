@@ -21,7 +21,7 @@ body {
 
 
 .car1 {
-    height:75px;
+    height: 60px;
     width: 250px;
     opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
@@ -31,7 +31,7 @@ body {
 }
 
 .car2 { 
-    height:75px;
+    height: 60px;
     width: 250px;
     opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
@@ -41,7 +41,7 @@ body {
 }
 
 .car3 {
-    height:75px;
+    height: 60px;
     width: 250px;
     opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
@@ -51,7 +51,7 @@ body {
 }
 
 .car4 {
-    height:75px;
+    height: 60px;
     width: 250px; 
     opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
