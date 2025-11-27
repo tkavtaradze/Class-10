@@ -16,13 +16,13 @@ body {
     transform: translateY(-50%); 
     display: flex;
     flex-direction: column;
-    gap: 10px;     
+    gap: 5px;     
 }
 
 
 .car1 {
-    height: 60px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
     animation: moveAcross 4s; 
@@ -31,8 +31,8 @@ body {
 }
 
 .car2 { 
-    height: 60px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
     animation: moveAcross 4.4s; 
@@ -41,8 +41,8 @@ body {
 }
 
 .car3 {
-    height: 60px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
     animation: moveAcross 4.2s ; 
@@ -51,8 +51,8 @@ body {
 }
 
 .car4 {
-    height: 60px;
-    width: 200px; 
+    height: 500px;
+    width: 150px; 
     opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
     animation: moveAcross 4.6s;
