@@ -12,7 +12,7 @@ body {
 .column {
     position: absolute;
     left: -20px;    
-    top: 90%;      
+    top: 90%;
     transform: translateY(-50%); 
     display: flex;
     flex-direction: column;
@@ -23,7 +23,6 @@ body {
 .car1 {
     height: 50px;
     width: 150px;
-    opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
     animation: moveAcross 4s; 
     animation-iteration-count: infinite;
@@ -33,7 +32,6 @@ body {
 .car2 { 
     height: 50px;
     width: 150px;
-    opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
     animation: moveAcross 4.4s; 
     animation-iteration-count: infinite;
@@ -43,7 +41,6 @@ body {
 .car3 {
     height: 50px;
     width: 150px;
-    opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
     animation: moveAcross 4.2s ; 
     animation-iteration-count: infinite;
@@ -53,7 +50,6 @@ body {
 .car4 {
     height: 50px;
     width: 150px; 
-    opacity: 100;
     animation: moveIn 0s; animation-delay: 0s;
     animation: moveAcross 4.6s;
     animation-iteration-count: infinite;
