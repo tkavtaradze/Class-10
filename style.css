@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-image: url(pics/track.png); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+.column {
+    position: absolute;
+    left: -20px;    
+    top: 78%;      
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;     
+}
+
+
+.car1 {
+    height:75px;
+    width: 250px;
+    opacity: 100;
+    animation: moveIn 0s; animation-delay: 0s;
+    animation: moveAcross 4s; 
+    animation-iteration-count: infinite;
+    animation-direction: infinite;
+}
+
+.car2 { 
+    height:75px;
+    width: 250px;
+    opacity: 100;
+    animation: moveIn 0s; animation-delay: 0s;
+    animation: moveAcross 4.4s; 
+    animation-iteration-count: infinite;
+    animation-direction: infinite;
+}
+
+.car3 {
+    height:75px;
+    width: 250px;
+    opacity: 100;
+    animation: moveIn 0s; animation-delay: 0s;
+    animation: moveAcross 4.2s ; 
+    animation-iteration-count: infinite;
+    animation-direction: infinite;
+}
+
+.car4 {
+    height:75px;
+    width: 250px; 
+    opacity: 100;
+    animation: moveIn 0s; animation-delay: 0s;
+    animation: moveAcross 4.6s;
+    animation-iteration-count: infinite;
+    animation-direction: infinite; 
+}
+
+@keyframes moveAcross {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(100vw); }
+}
+
+.flag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    transform-origin: right bottom;
+    animation: waveFlag 2s ease-in-out infinite;
+}
+
+@keyframes waveFlag {
+    0%   { transform: rotate(0deg) skewX(0deg); }
+    25%  { transform: rotate(5deg) skewX(5deg); }
+    50%  { transform: rotate(0deg) skewX(0deg); }
+    75%  { transform: rotate(-5deg) skewX(-5deg); }
+    100% { transform: rotate(0deg) skewX(0deg); }
+}
+
+
+@keyframes moveIn {
+    0% {transform: translateX(-200px);}
+    100% {transform: translateX(120vw);}
+}
